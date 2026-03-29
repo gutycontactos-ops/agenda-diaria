@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(node generate-icons.js)",
+      "Read(//Users/guty/Desktop/Videos\\\\ y\\\\ Fotos/videos\\\\ celular/Empresa/Vivir\\\\ de\\\\ la\\\\ IA/APP\\\\ WEB\\\\ AGENDA\\\\ DIARIA/ops/types/**)",
+      "Bash(\"ops/app/semana/page.tsx\":*)",
+      "Bash(curl -s http://localhost:3000)"
+    ]
+  }
+}
