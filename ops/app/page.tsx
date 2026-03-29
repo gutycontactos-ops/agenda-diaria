@@ -7,9 +7,5 @@ interface PageProps {
 }
 
 export default async function TodayPage(props: PageProps) {
-  const searchParams = await props.searchParams
-  const today = new Date().toISOString().split('T')[0]
-  const currentDate = searchParams.date || today
-
-  return <TodayClient currentDate={currentDate} />
+  return <TodayClient />
 }

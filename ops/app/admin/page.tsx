@@ -150,6 +150,8 @@ export default function AdminPage() {
                   color_label: null,
                   active: true,
                   sort_order: tasks.length,
+                  description: null,
+                  recurrence: 'none',
                 })
                 setShowTaskModal(true)
               }}

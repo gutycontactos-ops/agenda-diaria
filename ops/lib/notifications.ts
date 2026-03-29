@@ -39,7 +39,7 @@ export const listenToMessages = () => {
     onMessage(messaging, (payload) => {
       console.log('Message received:', payload)
 
-      if ('notification' in payload) {
+      if ('notification' in payload && payload.notification) {
         const { title, body, image } = payload.notification
         new Notification(title || 'Nueva notificación', {
           body: body || '',

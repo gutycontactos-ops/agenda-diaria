@@ -108,7 +108,7 @@ export function TodayClient() {
 
   const handleToggleDone = async (instance: DailyInstance & { task?: Task }) => {
     const isDone = instance.status === 'done'
-    const newStatus = isDone ? 'pending' : 'done'
+    const newStatus: 'pending' | 'done' = isDone ? 'pending' : 'done'
 
     const updated = instances.map(inst =>
       inst.id === instance.id ? { ...inst, status: newStatus } : inst
