@@ -8,8 +8,8 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Ops — Agenda Operativa",
-  description: "Tu agenda operativa diaria",
+  title: "Agenda Diaria v2 - 2026",
+  description: "Tu agenda operativa diaria con Firebase y Supabase",
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,
